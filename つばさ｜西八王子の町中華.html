@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>つばさ｜西八王子の町中華・お食事処</title>
+<meta name="description" content="西八王子駅近く、千人町の中華お食事処「つばさ」。ラーメン、チャーハン、一品料理、日替わりランチ。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBF8F3;--fg:#241613;--mute:#6f5f58;--red:#A31F1F;--line:#e4d9cc;--card:#fff;--hero:#241613;--herofg:#FBF8F3;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a110f;--fg:#f3ebe3;--mute:#b5a69c;--red:#e0523f;--line:#3b2a25;--card:#241815;--hero:#120b0a}}
+:root[data-theme="dark"]{--bg:#1a110f;--fg:#f3ebe3;--mute:#b5a69c;--red:#e0523f;--line:#3b2a25;--card:#241815;--hero:#120b0a}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans JP",system-ui,sans-serif;line-height:1.8}
+h1,h2,h3{font-family:"Shippori Mincho","Hiragino Mincho ProN",serif;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.key{height:18px;background:repeating-linear-gradient(90deg,var(--red) 0 14px,transparent 14px 20px);-webkit-mask:linear-gradient(#000 0 0);opacity:.9}
+.hero{background:var(--hero);color:var(--herofg);text-align:center;padding:56px 20px 44px}
+.sign{display:flex;justify-content:center;gap:10px;margin-bottom:22px}
+.sign span{width:78px;height:78px;border-radius:50%;background:#000;color:#fff;border:2px solid #5b4a42;display:grid;place-items:center;font:800 40px "Shippori Mincho",serif}
+.hero p{margin:6px 0;opacity:.9}
+.hero .lead{font:600 22px/1.6 "Shippori Mincho",serif}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:22px}
+.btn{padding:12px 22px;border-radius:999px;background:var(--red);color:#fff;text-decoration:none;font-weight:700}
+.btn.o{background:transparent;border:1.5px solid currentColor}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;overflow-x:auto;gap:4px;padding:6px 12px;white-space:nowrap}
+nav a{padding:6px 12px;text-decoration:none;font-weight:500;font-size:14px;border-radius:6px}
+nav a:hover{background:var(--line)}
+section{max-width:760px;margin:0 auto;padding:44px 20px 8px}
+h2{font-size:26px;border-left:6px solid var(--red);padding-left:12px;margin-bottom:6px}
+.note{color:var(--mute);font-size:13px;margin:0 0 14px}
+h3{font-size:18px;margin:26px 0 4px;color:var(--red)}
+ul.m{list-style:none;margin:0;padding:0}
+ul.m li{display:flex;align-items:baseline;gap:8px;padding:9px 0;border-bottom:1px dotted var(--line)}
+ul.m li b{font-weight:500;flex:1}
+ul.m small{display:block;color:var(--mute);font-size:12px;line-height:1.4}
+ul.m i{font-style:normal;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:700}
+ul.m em{font-style:normal;color:var(--mute);font-size:12px;margin-right:6px;font-weight:400}
+.pick{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:0 0 10px}
+.info{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px 18px}
+.info div{padding:12px 0;border-bottom:1px solid var(--line)}
+.info div:last-child{border:0}
+.info dt{font-size:12px;color:var(--mute)}
+.info dd{margin:0;font-weight:500}
+footer{text-align:center;color:var(--mute);font-size:12px;padding:40px 20px 36px}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="sign" role="img" aria-label="つばさ"><span>つ</span><span>ば</span><span>さ</span></div>
+  <p>中華お食事処｜東京・西八王子</p>
+  <p class="lead">昼のラーメン、夜の一品。<br>ふつうにうまい町中華。</p>
+  <div class="btns"><a class="btn" href="#menu">メニューを見る</a><a class="btn o" href="#access">アクセス</a></div>
+</header>
+<div class="key" aria-hidden="true"></div>
+<nav aria-label="ページ内メニュー">
+  <a href="#menu">お食事</a><a href="#dish">一品料理</a><a href="#side">前菜・点心</a><a href="#lunch">ランチ</a><a href="#drink">ドリンク</a><a href="#access">アクセス</a>
+</nav>
+
+<section id="about" style="padding-bottom:0">
+  <p>西八王子駅から歩いて約9分、千人町の路地にある中華のお店です。ラーメンや五目あんかけ、チャーハンといった定番から、麻婆豆腐や油淋鶏などの一品料理まで。ラーメン・チャーハン・中華丼にはハーフサイズもあります。</p>
+  <p class="note">Google口コミ 4.2（172件）／ 目安 ¥1,000〜2,000</p>
+</section>
+
+<section id="menu">
+  <h2>お食事</h2>
+  <p class="note">価格は税込。（　）内はハーフ。</p>
+  <h3>麺</h3>
+  <ul class="m">
+    <li><b>ラーメン</b><i><em>ハーフ 650</em>870円</i></li>
+    <li><b>タンメン<small>ヘルシー野菜たっぷり</small></b><i><em>ハーフ 790</em>1,020円</i></li>
+    <li><b>酸辣湯麺（サンラータンメン）<small>酢と辛みのとろみスープ</small></b><i><em>ハーフ 860</em>1,100円</i></li>
+    <li><b>タンタン麺</b><i><em>ハーフ 860</em>1,100円</i></li>
+    <li><b>五目湯麺<small>具だくさんのとろみあんかけ</small></b><i><em>ハーフ 900</em>1,150円</i></li>
+    <li><b>五目あんかけ焼きそば</b><i><em>ハーフ 900</em>1,150円</i></li>
+  </ul>
+  <h3>飯</h3>
+  <ul class="m">
+    <li><b>チャーハン</b><i><em>ハーフ 780</em>990円</i></li>
+    <li><b>エビチャーハン</b><i><em>ハーフ 860</em>1,120円</i></li>
+    <li><b>中華丼<small>中華どんぶりの定番</small></b><i><em>ハーフ 860</em>1,100円</i></li>
+    <li><b>エビ玉飯<small>エビとトロトロ玉子の絶妙なバランス</small></b><i>1,120円</i></li>
+  </ul>
+  <h3>ごはん・スープ・デザート</h3>
+  <ul class="m">
+    <li><b>ライス</b><i>320円</i></li>
+    <li><b>半ライス</b><i>250円</i></li>
+    <li><b>大盛ライス</b><i>370円</i></li>
+    <li><b>ライスセット<small>ライス・スープ・香物</small></b><i>500円</i></li>
+    <li><b>スープ</b><i>150円</i></li>
+    <li><b>手作り杏仁豆腐</b><i>500円</i></li>
+    <li><b>アイス</b><i>500円</i></li>
+  </ul>
+</section>
+
+<section id="dish">
+  <h2>一品料理</h2>
+  <p class="note">価格は税込。</p>
+  <ul class="m">
+    <li><b>エビのチリソース</b><i>1,260円</i></li>
+    <li><b>イカのオイスターソース炒め</b><i>980円</i></li>
+    <li><b>豚肉とキクラゲの卵炒め</b><i>940円</i></li>
+    <li><b>黒酢の酢豚</b><i>970円</i></li>
+    <li><b>四川風麻婆豆腐<small>本格四川風</small></b><i>1,000円</i></li>
+    <li><b>豚レバーとニラの炒め</b><i>1,050円</i></li>
+    <li><b>回鍋肉</b><i>1,100円</i></li>
+    <li><b>青梗菜のガーリック炒め</b><i>690円</i></li>
+    <li><b>ニラ玉<small>ふわトロ</small></b><i>730円</i></li>
+    <li><b>ナスのピリ辛炒め</b><i>990円</i></li>
+  </ul>
+</section>
+
+<section id="side">
+  <h2>前菜・点心</h2>
+  <p class="note">価格は税込。</p>
+  <ul class="m">
+    <li><b>ザーサイ</b><i>400円</i></li>
+    <li><b>枝豆<small>ビールのお供に</small></b><i>450円</i></li>
+    <li><b>ピータン豆腐</b><i>850円</i></li>
+    <li><b>バンバンジー<small>ゴマソース</small></b><i>900円</i></li>
+    <li><b>四川名物よだれ鶏</b><i>900円</i></li>
+    <li><b>特製サラダ</b><i>720円</i></li>
+    <li><b>手作り焼き餃子（5ヶ）</b><i>650円</i></li>
+    <li><b>手作り葱ワンタン（6ヶ）<small>葱の香りが広がる</small></b><i>700円</i></li>
+    <li><b>春巻き（2本）<small>あつあつ</small></b><i>700円</i></li>
+    <li><b>ポテトフライ<small>ビールのお供に</small></b><i>700円</i></li>
+    <li><b>油淋鶏<small>特製甘酢ソース</small></b><i>980円</i></li>
+  </ul>
+</section>
+
+<section id="lunch">
+  <h2>ランチ</h2>
+  <p class="note">平日ランチ。定食はライス大盛無料、麺類は麺大盛または半ライス無料。※下記は以前のメニューの価格です。最新はお店にご確認ください。</p>
+  <div class="pick"><b>麻婆豆腐ランチ</b> 1,000円<br><small>ライス・スープ・小鉢・香物・デザート付</small></div>
+  <div class="pick"><b>油淋鶏（ユーリンチー）ランチ</b> 1,000円<br><small>ライス・スープ・小鉢・香物・デザート付</small></div>
+  <div class="pick"><b>レバニラランチ</b> 1,050円<br><small>ライス・スープ・小鉢・香物・デザート付</small></div>
+  <div class="pick"><b>特選：エビチリソースランチ</b> 1,150円<br><b>特選：牛肉のオイスター炒めランチ</b> 1,260円<br><small>どちらもライス・スープ・小鉢・香物・デザート付</small></div>
+</section>
+
+<section id="drink">
+  <h2>ドリンク</h2>
+  <p class="note">※税抜価格・以前のメニューより。</p>
+  <ul class="m">
+    <li><b>生ビール（キリン一番搾り）</b><i>600円</i></li>
+    <li><b>瓶ビール（アサヒスーパードライ中瓶／キリン一番搾り黒生小瓶）</b><i>680円／550円</i></li>
+    <li><b>ノンアルコールビール</b><i>450円</i></li>
+    <li><b>ハイボール（角／ホワイトホース）</b><i>530円</i></li>
+    <li><b>サワー・酎ハイ各種</b><i>500〜550円</i></li>
+    <li><b>紹興酒（かめ出し）</b><i>600円</i></li>
+    <li><b>焼酎（麦・芋）</b><i>600円</i></li>
+    <li><b>ソフトドリンク</b><i>280円</i></li>
+  </ul>
+</section>
+
+<section id="access">
+  <h2>アクセス</h2>
+  <dl class="info">
+    <div><dt>住所</dt><dd>〒193-0835 東京都八王子市千人町2丁目3-4 一二三ビル</dd></div>
+    <div><dt>最寄り駅</dt><dd>JR 西八王子駅から徒歩約9分</dd></div>
+    <div><dt>営業時間</dt><dd>日曜は11:00開店。営業時間・定休日はお店にご確認ください。</dd></div>
+  </dl>
+  <div class="btns" style="justify-content:flex-start">
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=%E3%81%A4%E3%81%B0%E3%81%95+%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82%E5%8D%83%E4%BA%BA%E7%94%BA2-3-4" target="_blank" rel="noopener">Googleマップで開く</a>
+  </div>
+</section>
+
+<div class="key" aria-hidden="true" style="margin-top:40px"></div>
+<footer>© つばさ ／ 掲載の価格・内容は変更になる場合があります。</footer>
+</body>
+</html>
